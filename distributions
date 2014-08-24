@@ -1,0 +1,24 @@
+Origin: Edusantara
+Label: Edusantara
+Codename: anambas
+Suite: anambas
+Components: main restricted extras extras-restricted
+UDebComponents: main
+Architectures: i386 amd64 source
+Version: 1.0
+Description: Edusantara 1.0 Anambas
+# XXXXXXXXXX
+# Jangan kasih "-" di kolom Update, nanti paket2 khas2 edusantara akan dihapus
+Update: merge.anambas
+SignWith: A984BDA6
+DebIndices: Packages Release . .gz .bz2 tiffany.py
+UDebIndices: Packages . .gz .bz2
+DscIndices: Sources Release . .gz .bz2 tiffany.py
+#Pull: pull.suroboyo pull.suroboyo-updates
+Contents: udebs nodebs . .gz
+ContentsArchitectures: i386 amd64
+ContentsComponents: main restricted extras extras-restricted
+ContentsUComponents: main
+Log: anambas.log
+ --type=dsc changelogs
+

@@ -1,0 +1,17 @@
+Name: merge.suroboyo
+Suite: suroboyo
+VerifyRelease: blindtrust
+Method: http://arsip.blankonlinux.or.id/blankon
+Architectures: i386 amd64  source
+Components: main restricted extras extras-restricted
+#FilterList: install blacklist.unstable
+
+Name: merge.anambas
+Suite: anambas
+VerifyRelease: blindtrust
+Method: http://arsip-dev.blankonlinux.or.id:8080/blankon
+Architectures: i386 amd64 source
+Components: main restricted extras extras-restricted
+#FilterList: install blacklist.unstable
+
+
